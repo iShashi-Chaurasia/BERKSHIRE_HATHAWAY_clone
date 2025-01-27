@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BERKSHIRE HATHAWAY - Retailing</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      
+      
+      min-height: 100vh;
+      margin: 0;
+      background: #f3f4f6;
+    }
+    .container-retailing{
+      display: flex;
+    }
+
+    .card {
+     
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 350px;
+      margin: 15px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 16px;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      color: #333333;
+      margin: 0;
+    }
+
+    .card-subtitle {
+      font-size: 1rem;
+      color: #666666;
+      margin: 8px 0;
+    }
+
+    .card-message {
+      font-size: 0.9rem;
+      color: #555555;
+      line-height: 1.5;
+      margin: 12px 0;
+    }
+
+    .card-button {
+      display: block;
+      text-align: center;
+      padding: 10px 16px;
+      margin: 12px 0 0;
+      background: #4f46e5;
+      color: #ffffff;
+      font-size: 0.9rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .card-button:hover {
+      background: #4338ca;
+    }
+    .retailing-footer{
+      margin-top: 400px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <a href="index.html"><img src="logo2.jpg" alt="Company Logo" width="100px"></a>
+    </div>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html" class="nav-link ">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="retailing.html" class="nav-link active">Retailing</a></li>
+        <li><a href="latest.html" class="nav-link">Latest</a></li>
+        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="retailing.html">Retailing</a>
+        <a href="latest.html">Latest</a>
+        <a href="contact.html">Contact Us</a>
+    </nav> -->
+</header>
+<div class="container-retailing">
+  <div class="card">
+    <img src="seesCandies.jpg" alt="Card Image">
+    <div class="card-content">
+      <h2 class="card-title">See's Candies</h2>
+      <h4 class="card-subtitle">The company has been owned by Warren Buffett's Berkshire Hathaway Corporation since 1972.</h4>
+      <p class="card-message">
+        Hello, Reader :  See's Candies became part of the Berkshire Hathaway family in January 1972, when Warren Buffett and Charlie Munger purchased the company. To this day, See's is one of Warren's favorite businesses!
+      </p>
+      <a href="https://www.sees.com/about-us/corporate" class="card-button">Learn More</a>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <img src="netjet.webp" alt="Card Image">
+    <div class="card-content">
+      <h2 class="card-title">NetJets</h2>
+      <h4 class="card-subtitle">Berkshire Hathaway bought NetJets in 1998 for $711 million. Buffett on 25 years+ of owning NetJets</h4>
+      <p class="card-message">
+        Hello, Reader : NetJets became the first private business jet charter and aircraft management company in the world. It launched its fractional ownership business in 1986 and became a subsidiary of Berkshire Hathaway in 1998.
+      </p>
+      <a href="https://www.netjets.com/en-us/" class="card-button">Learn More</a>
+    </div>
+  </div>
+  
+
+ 
+    <div class="card">
+      <img src="geico.jpg" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Geico</h2>
+        <h4 class="card-subtitle">GEICO is an indirect, wholly owned subsidiary of Berkshire Hathaway, Inc. These companies are also Berkshire Hathaway subsidiaries.</h4>
+        <p class="card-message">
+          Hello, Reader :  It is the second largest auto insurer in the United States, after State Farm. GEICO is a wholly owned subsidiary of Berkshire Hathaway, which provides coverage for more than 24 million motor vehicles owned by more than 15 million policy holders as of 2017.
+        </p>
+        <a href="https://www.sees.com/about-us/corporate" class="card-button">Learn More</a>
+      </div>
+    </div>
+
+    
+  <div class="card">
+    <img src="borsheins.jpg" alt="Card Image">
+    <div class="card-content">
+      <h2 class="card-title">Borsheims</h2>
+      <h4 class="card-subtitle">One year later, in 1989, Warren Buffett's Berkshire Hathaway acquired Borsheims from the family that owned it.</h4>
+      <p class="card-message">
+        Hello, Reader :  See's Candies became part of the Berkshire Hathaway family in January 1972, when Warren Buffett and Charlie Munger purchased the company. To this day, See's is one of Warren's favorite businesses!
+      </p>
+      <a href="https://www.sees.com/about-us/corporate" class="card-button">Learn More</a>
+    </div>
+  </div>
+</div>
+
+
+<footer class="retailing-footer">
+  <p>&copy; 2025 Berkshire Hathaway | All rights reserved.</p>
+  <p>
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms of Service</a> |
+      <a href="#">Annual Reports</a> |
+      <a href="#">Contact Us</a>
+  </p>
+</footer>
+</body>
+</html>
